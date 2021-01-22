@@ -1,0 +1,727 @@
+gg.alert("Script Açmak istiyormusunuz?")
+gg.toast(" ✅SERVERE BAĞLANIYOR...🚏 ")
+gg.sleep(500)
+gg.sleep(500)
+gg.sleep(500)
+gg.sleep(500)
+gg.sleep(500)
+gg.sleep(500)
+
+gg.alert ([[
+╔═╗╔═╦═══╦════╦═══╦═══╗
+║║╚╝║║╔═╗║╔╗╔╗║╔═╗║╔═╗║
+║╔╗╔╗║║─╚╩╝║║╚╣║─║║║─║║
+║║║║║║║─╔╗─║║─║║─║║║─║║
+║║║║║║╚═╝║─║║─║╚═╝║╚═╝║
+╚╝╚╝╚╩═══╝─╚╝─╚═══╩═══╝
+───────────╔╗
+──────────╔╝╚╗
+╔══╦══╦═╦═╩╗╔╝
+║══╣╔═╣╔╣╔╗║║
+╠══║╚═╣║║╚╝║╚╗
+╚══╩══╩╝║╔═╩═╝
+────────║║
+────────╚╝
+]],
+
+"Tamamdır➡️")
+
+LHPS = gg.prompt({
+
+"》🔒 - ŞİFRE - 🔒《\n\n@MucotooDeveloper"
+
+}, {}, {})
+
+if not LHPS then
+
+os.exit()
+
+end
+
+if LHPS[1] == "5000" then
+
+gg.alert("😁-HOŞGELDİN MCTOO SCRİPTE-💞")
+
+else
+
+gg.alert("》YANLIŞ ŞİFRE Telegram @MucotooDeveloper《", "👋 TAMAM 👋")
+
+  os.exit()
+
+ end
+
+gg.sleep(500)
+gg.sleep(500)
+gg.sleep(500)
+gg.alert("🌐 ONLİNE GÜNCELLEME NOTU 🌐 \n\n😊[Hoşgeldin MCTOO SCRİPT ̲̲̅̅V̲̲̅̅I̲̲̅̅P̲̲̅̅ ̲̅]😊 \n\n•Antiban Güncellendi \n•LessRecoil Güncellendi \n•Aimbot Güncellendi \n•Flash Eklendi")
+gg.alert(" ⚠️OKU⚠️ \n\n 👉 Önce Antiban V1 AÇ Sonra V2 AÇ")
+function setvalue(address, flags, value)
+  MUCOTOO("Modify address value(Address, value type, value to be modified)")
+  local tt = {}
+  tt[1] = {}
+  tt[1].address = address
+  tt[1].flags = flags
+  tt[1].value = value
+  gg.setValues(tt)
+end--Fᴜɴᴄᴛɪᴏɴ
+
+HOME = 1
+function HOME()
+  MN = gg.choice({
+    "[🛡️] ANTİBAN V1",
+    "[🛡️] ANTİBAN V2",
+    "[🧹] LOG TEMİZLE",
+    "[🗼] ANTEN",
+    "[💪] İLERİ UZANAN KOL",
+    "[✒️] YARGI MENÜ+++",
+    "[🎯] SABİT CROSSHAİR",
+    "[🤖] NO GRASS",
+    "[🤖] LESS RECOIL",
+    "[🏖️️] İPAD BŞN",
+    "[🏃] FLASH V4.3",
+    "[🤸] YÜKSEK ZIPLA",
+    "✖️ KAPAT✖️"
+  }, nil, "┏⊳🌐 ᴛᴇʟᴇɢʀᴀᴍ @MucotooDeveloper")
+  if MN == nil then
+  end--Iғ
+  if MN == 1 then
+    B1()
+  end--Iғ
+  if MN == 2 then
+    B2()
+  end--Iғ
+  if MN == 3 then
+    LOG()
+  end
+  if MN == 4 then
+    antena()
+  end--Iғ
+  if MN == 5 then
+    demage()
+  end--Iғ
+  if MN == 6 then
+    sihirli()
+  end
+  if MN == 7 then
+    aimlockbot()
+  end--Iғ
+  if MN == 8 then
+    NoRecoil()
+  end--Iғ
+  if MN == 9 then
+    LessRecoil()
+  end--Iғ
+  if MN == 10 then
+    WideView()
+  end--Iғ
+  if MN == 11 then
+    SpeedRun()
+  end--Iғ
+  if MN == 12 then
+    highJump()
+  end--Iғ
+  if MN == 13 then
+    EXIT()
+  end--Iғ
+  MUCOTOO = -1
+end--Fᴜɴᴄᴛɪᴏɴ
+
+function B1()
+  gg.alert(" ⚠️ OKU ⚠️ \n\n 👉 V1 LOBBYDE AÇILIYOR‼️")
+  os.remove("src / main / java / com / google / errorprone / annotations")
+  os.remove("src / main / java / com / google / errorprone / annotations")
+  os.remove("src / main / java / com / google / errorprone / annotations / concurrent")
+  os.remove("third_party.java_src.error_prone.project.annotations.Google_internal")
+  gg.clearResults()
+  gg.sleep(300)
+  gg.setRanges(gg.REGION_C_ALLOC)
+  gg.sleep(300)
+  gg.setVisible(false)
+  gg.sleep(300)
+  gg.searchNumber("196,864 ~ 590336; 67109377; 67109633", gg.TYPE_DWORD, false, gg.SIGN_EQUAL, 0, -1, 0)
+  gg.setVisible(false)
+  gg.sleep(300)
+  gg.refineNumber("196,864 ~ 590336", gg.TYPE_DWORD, false, gg.SIGN_EQUAL, 0, -1, 0)
+  local t = gg.getResults(99999)
+  gg.sleep(300)
+  do
+    do
+      for i, i in ipairs(t) do
+      gg.sleep(300)
+        t[i].flags = 4
+        t[i].value = "67109633"
+        t[i].freeze = true
+        gg.sleep(300)
+      end--Fᴏʀ
+    end--Dᴏ
+  end--Dᴏ
+  gg.setVisible(false)
+  gg.sleep(300)
+  gg.addListItems(t)
+  gg.clearList()
+  gg.sleep(300)
+  gg.clearResults()
+  gg.sleep(300)
+  gg.setVisible(false)
+  gg.clearResults()
+  gg.sleep(300)
+  gg.setRanges(gg.REGION_C_ALLOC)
+  gg.setVisible(false)
+  gg.sleep(300)
+  gg.searchNumber("65795 ~ 590336; 67109377; 67109633", gg.TYPE_DWORD, false, gg.SIGN_EQUAL, 0, -1, 0)
+  gg.setVisible(false)
+  gg.sleep(300)
+  gg.refineNumber("65795 ~ 590336", gg.TYPE_DWORD, false, gg.SIGN_EQUAL, 0, -1, 0)
+  local t = gg.getResults(99999)
+  gg.sleep(300)
+  do
+    do
+      for i, i in ipairs(t) do
+      gg.sleep(300)
+        t[i].flags = 4
+        t[i].value = "67109633"
+        t[i].freeze = true
+      end--Fᴏʀ
+    end--Dᴏ
+  end--Dᴏ
+  gg.setVisible(false)
+  gg.sleep(300)
+  gg.addListItems(t)
+  gg.clearList()
+  gg.sleep(300)
+  gg.clearResults()
+  gg.sleep(300)
+  gg.setVisible(false)
+  gg.clearResults()
+  gg.sleep(300)
+  gg.alert(" Antiban V1.... AKTİF.....✓ \nMucotooDeveloper")
+  gg.alert("🛡️ •Antiban Durumu : \nTAVUK")
+end--Fᴜɴᴄᴛɪᴏɴ
+
+function B2()
+  gg.alert(" ⚠️ OKU ⚠️ \n\n 👉 Antiban V2 Her cihaza uyumlu değildir ‼️")
+  os.remove("src / main / java / com / google / errorprone / annotations")
+  os.remove("src / main / java / com / google / errorprone / annotations")
+  os.remove("src / main / java / com / google / errorprone / annotations / concurrent")
+  os.remove("third_party.java_src.error_prone.project.annotations.Google_internal")
+  gg.clearResults()
+  gg.sleep(300)
+  gg.setRanges(gg.REGION_C_ALLOC)
+  gg.setVisible(false)
+  gg.sleep(300)
+  gg.searchNumber("196,864 ~ 590336; 67109377; 67109633", gg.TYPE_DWORD, false, gg.SIGN_EQUAL, 0, -1, 0)
+  gg.setVisible(false)
+  gg.sleep(300)
+  gg.refineNumber("196,864 ~ 590336", gg.TYPE_DWORD, false, gg.SIGN_EQUAL, 0, -1, 0)
+  local t = gg.getResults(99999)
+  gg.sleep(300)
+  do
+    do
+      for i, i in ipairs(t) do
+        t[i].flags = 4
+        t[i].value = "67109633"
+        t[i].freeze = true
+        gg.sleep(300)
+      end--Fᴏʀ
+    end--Dᴏ
+  end--Dᴏ
+  gg.setVisible(false)
+  gg.sleep(300)
+  gg.addListItems(t)
+  gg.clearList()
+  gg.sleep(300)
+  gg.clearResults()
+  gg.sleep(300)
+  gg.setVisible(false)
+  gg.clearResults()
+  gg.sleep(300)
+  gg.setRanges(gg.REGION_C_ALLOC)
+  gg.setVisible(false)
+  gg.sleep(300)
+  gg.searchNumber("65795 ~ 590336; 67109377; 67109633", gg.TYPE_DWORD, false, gg.SIGN_EQUAL, 0, -1, 0)
+  gg.setVisible(false)
+  gg.sleep(300)
+  gg.refineNumber("65795 ~ 590336", gg.TYPE_DWORD, false, gg.SIGN_EQUAL, 0, -1, 0)
+  local t = gg.getResults(99999)
+  gg.sleep(300)
+  do
+    do
+      for i, i in ipairs(t) do
+        t[i].flags = 4
+        t[i].value = "67109633"
+        t[i].freeze = true
+        gg.sleep(300)
+      end--Fᴏʀ
+    end--Dᴏ
+  end--Dᴏ
+  gg.setVisible(false)
+  gg.sleep(300)
+  gg.addListItems(t)
+  gg.clearList()
+  gg.sleep(300)
+  gg.clearResults()
+  gg.sleep(300)
+  gg.setVisible(false)
+  gg.clearResults()
+  gg.sleep(300)
+  gg.alert(" Antiban V2.... AKTİF.....✓ \nMucotooDeveloper")
+  gg.alert("🛡️ Antiban Durumu : \n•YARGI+++")
+end--Fᴜɴᴄᴛɪᴏɴ
+
+function LOG()
+os.remove("src/main/java/com/google/errorprone/annotations")
+  os.remove("src/main/java/com/google/errorprone/annotations/concurrent")
+  os.remove("third_party.java_src.error_prone.project.annotations.Google_interna")
+  os.remove("/storage/emulated/0/Android/data/com.tencent.ig/cache")
+  os.remove("/storage/emulated/0/Android/data/com.tencent.ig/cache/GCloud.ini")
+  os.remove("/storage/emulated/0/Android/data/com.tencent.ig/files/UE4Game/ShadowTrackerExtra/ShadowTrackerExtra/Saved/GameErrorNoRecords")
+  os.remove("/storage/emulated/0/Android/data/com.tencent.ig/files/tbslog")
+  os.remove("/storage/emulated/0/Android/data/com.tencent.ig/files/ca-bundle.pem")
+  os.remove("/storage/emulated/0/Android/data/com.tencent.ig/files/cacheFile.txt")
+  os.remove("/storage/emulated/0/Android/data/com.tencent.ig/files/login-identifier.txt")
+  os.remove("/storage/emulated/0/Android/data/com.tencent.ig/files/vmpcloudconfig.json")
+  os.remove("/storage/emulated/0/Android/data/com.tencent.ig/files/ProgramBinaryCache")
+  os.remove("/storage/emulated/0/Android/data/com.tencent.ig/files/UE4Game/ShadowTrackerExtra/ShadowTrackerExtra/Saved/Paks/puffer_temp")
+  os.remove("/storage/emulated/0/Android/data/com.tencent.ig/files/UE4Game/ShadowTrackerExtra/ShadowTrackerExtra/Saved/Paks/puffer_res.eifs")
+  os.remove("/storage/emulated/0/Android/data/com.tencent.ig/files/UE4Game/ShadowTrackerExtra/ShadowTrackerExtra/Saved/Paks/1375135419_47_0.13.0.11098_20190617165748_1981158817_cures.ifs.res")
+  os.remove("/storage/emulated/0/Android/data/com.tencent.ig/files/UE4Game/ShadowTrackerExtra/ShadowTrackerExtra/Saved/Logs")
+  os.remove("/storage/emulated/0/Android/data/com.tencent.ig/files/UE4Game/ShadowTrackerExtra/ShadowTrackerExtra/Saved/UpdateInfo")
+  os.remove("/storage/emulated/0/Android/data/com.tencent.ig/files/UE4Game/ShadowTrackerExtra/ShadowTrackerExtra/Saved/RoleInfo")
+  os.remove("/storage/emulated/0/Android/data/com.tencent.ig/files/UE4Game/ShadowTrackerExtra/ShadowTrackerExtra/Saved/Pandora")
+  os.remove("/storage/emulated/0/Android/data/com.tencent.ig/files/UE4Game/ShadowTrackerExtra/ShadowTrackerExtra/Saved/PufferTmpDir")
+  os.remove("/data/data/com.tencent.ig/app_appcache")
+  os.remove("/data/data/com.tencent.ig/app_bugly")
+  os.remove("/data/data/com.tencent.ig/app_crashrecord")
+  os.remove("/data/data/com.tencent.ig/cache")
+  os.remove("/data/data/com.tencent.ig/code_cache")
+  os.remove("/storage/emulated/0/Android/data/com.tencent.ig/cache")
+  os.remove("/storage/emulated/0/tencent")
+  os.remove("/storage/emulated/0/MidasOverse")
+  os.remove("/storage/emulated/0/Android/data/com.tencent.ig/files/tbslog")
+  os.remove("/storage/emulated/0/Android/data/com.tencent.ig/files/login-identifier.txt")
+  os.remove("/storage/emulated/0/Android/data/com.tencent.ig/files/cacheFile.txt")
+  os.remove("/storage/emulated/0/Android/data/com.tencent.ig/files/vmpcloudconfig.json")
+  os.remove("/storage/emulated/0/Android/data/com.tencent.ig/files/UE4Game/ShadowTrackerExtra/ShadowTrackerExtra/Saved/Logs")
+  os.remove("/storage/emulated/0/Android/data/com.tencent.ig/files/UE4Game/ShadowTrackerExtra/ShadowTrackerExtra/Saved/GameErrorNoRecords")
+  os.remove("/storage/emulated/0/Android/data/com.tencent.ig/files/UE4Game/ShadowTrackerExtra/ShadowTrackerExtra/Saved/Config/Android/AntiCheat.ini")
+  os.remove("/storage/emulated/0/Android/data/com.tencent.ig/files/UE4Game/ShadowTrackerExtra/ShadowTrackerExtra/Saved/Config/Android/IGH5CachePluginConfig.ini")
+  os.remove("/storage/emulated/0/Android/data/com.pubg.krmobile/cache")
+  os.remove("/storage/emulated/0/tencent")
+  os.remove("/storage/emulated/0/MidasOverse")
+  os.remove("/storage/emulated/0/Android/data/com.pubg.krmobile/files/tbslog")
+  os.remove("/storage/emulated/0/Android/data/com.pubg.krmobile/files/login-identifier.txt")
+  os.remove("/storage/emulated/0/Android/data/com.pubg.krmobile/files/cacheFile.txt")
+  os.remove("/storage/emulated/0/Android/data/com.pubg.krmobile/files/vmpcloudconfig.json")
+  os.remove("/storage/emulated/0/Android/data/com.pubg.krmobile/files/UE4Game/ShadowTrackerExtra/ShadowTrackerExtra/Saved/Logs")
+  os.remove("/storage/emulated/0/Android/data/com.pubg.krmobile/files/UE4Game/ShadowTrackerExtra/ShadowTrackerExtra/Saved/GameErrorNoRecords")
+  os.remove("/storage/emulated/0/Android/data/com.pubg.krmobile/files/UE4Game/ShadowTrackerExtra/ShadowTrackerExtra/Saved/Config/Android/AntiCheat.ini")
+  os.remove("/storage/emulated/0/Android/data/com.pubg.krmobile/files/UE4Game/ShadowTrackerExtra/ShadowTrackerExtra/Saved/Config/Android/IGH5CachePluginConfig.ini")
+  os.remove("/storage/emulated/0/Android/data/com.vng.pubgmobile/cache")
+  os.remove("/storage/emulated/0/tencent")
+  os.remove("/storage/emulated/0/MidasOverse")
+  os.remove("/storage/emulated/0/Android/data/com.vng.pubgmobile/files/tbslog")
+  os.remove("/storage/emulated/0/Android/data/com.vng.pubgmobile/files/login-identifier.txt")
+  os.remove("/storage/emulated/0/Android/data/com.vng.pubgmobile/files/cacheFile.txt")
+  os.remove("/storage/emulated/0/Android/data/com.vng.pubgmobile/files/vmpcloudconfig.json")
+  os.remove("/storage/emulated/0/Android/data/com.vng.pubgmobile/files/UE4Game/ShadowTrackerExtra/ShadowTrackerExtra/Saved/Logs")
+  os.remove("/storage/emulated/0/Android/data/com.vng.pubgmobile/files/UE4Game/ShadowTrackerExtra/ShadowTrackerExtra/Saved/GameErrorNoRecords")
+  os.remove("/storage/emulated/0/Android/data/com.vng.pubgmobile/files/UE4Game/ShadowTrackerExtra/ShadowTrackerExtra/Saved/Config/Android/AntiCheat.ini")
+  os.remove("/storage/emulated/0/Android/data/com.vng.pubgmobile/files/UE4Game/ShadowTrackerExtra/ShadowTrackerExtra/Saved/Config/Android/IGH5CachePluginConfig.ini")
+  gg.toast("🧹🧹🧹🧹 LOGLAR TEMİZLENDİ 🧹🧹🧹🧹")
+end
+
+function antena()
+  gg.clearResults()
+  gg.setRanges(gg.REGION_ANONYMOUS)
+  gg.searchNumber("88.50576019287F; 87.27782440186F; -100.91194152832F; 1F :: 13", gg.TYPE_FLOAT, false, gg.SIGN_EQUAL, 0, -1)
+  gg.searchNumber("88.50576019287F; 87.27782440186F; 1F", gg.TYPE_FLOAT, false, gg.SIGN_EQUAL, 0, -1)
+  gg.getResults(1000, nil, nil, nil, nil, nil, nil, nil, nil)
+  gg.editAll("1.96875; 1.96875; 999; 1.96875; 1.96875; 999", gg.TYPE_FLOAT)
+  gg.clearResults()
+  gg.toast("📡📡📡 ANTEN 📡📡📡")
+end--Fᴜɴᴄᴛɪᴏɴ
+
+function demage()
+  gg.clearResults()
+
+gg.setRanges(gg.REGION_ANONYMOUS)
+
+gg.setVisible(false)
+
+gg.searchNumber("4138667321167981973", gg.TYPE_QWORD, false, gg.SIGN_EQUAL, 0, -1)
+
+gg.refineNumber("4138667321167981973", gg.TYPE_QWORD, false, gg.SIGN_EQUAL, 0, -1)
+
+gg.refineNumber("4138667321167981973", gg.TYPE_QWORD, false, gg.SIGN_EQUAL, 0, -1)
+
+gg.getResults(200)
+
+gg.editAll("4848124999984742400", gg.TYPE_QWORD)
+
+gg.clearResults()
+
+gg.toast("🌹İleri Uzanan Kol")
+
+end
+
+function sihirli()
+MG = gg.multiChoice({
+
+           "🤕 HEADTSHOT",
+
+           "🔫 LESS RECOİL",
+
+           "✒️ MAGİC BULLET",
+
+           "[GERİ]",
+
+}, nil, "YARGI MENU+++")
+
+  if MG == nil then
+
+  else
+
+    if MG [1] == true then
+
+      MG1()
+
+    end
+
+    if MG [2] == true then
+
+     MG2()
+
+    end
+
+    if MG [3] == true then
+
+     MG3()
+
+     end
+
+    if MG [4] == true then
+
+    HOME()
+
+    end
+
+    end
+
+    PUBGMH = -1
+
+    end
+
+function MG1()
+
+gg.clearResults()
+
+gg.setRanges(gg.REGION_ANONYMOUS)
+
+gg.searchNumber("9.201618;30.5;25", gg.TYPE_FLOAT, false, gg.SIGN_EQUAL, 0, -1)
+
+gg.searchNumber("25;30.5", gg.TYPE_FLOAT, false, gg.SIGN_EQUAL, 0, -1)
+
+gg.getResults(10)
+
+gg.editAll("240", gg.TYPE_FLOAT)
+
+gg.clearResults()
+
+gg.searchNumber("30.5", gg.TYPE_FLOAT, false, gg.SIGN_EQUAL, 0, -1)
+
+gg.getResults(1)
+
+gg.editAll("240", gg.TYPE_FLOAT)
+
+gg.toast("🤕🤕🤕 HEADSHOT AKTİF 🤕🤕🤕")
+
+end
+
+ 
+
+function MG2()
+
+gg.clearResults()
+
+gg.setRanges(16384)
+
+gg.searchNumber("-1903895931231645695", 32, false, 536870912, 0, -1)
+
+gg.refineAddress("740", -1, gg.TYPE_QWORD, gg.SIGN_EQUAL, 0, -1)
+
+gg.getResults(1)
+
+gg.editAll("-1903895931231645694", 32)
+
+gg.clearResults()
+
+gg.toast("🔫🔫🔫 LESS RECOIL AKTIF 🔫🔫🔫")
+
+end
+
+ 
+
+function MG3()
+
+gg.setRanges(gg.REGION_CODE_APP)
+
+gg.clearResults()
+
+gg.searchNumber("495979008;-300938736;-481296384;318772964;-300938736:129", gg.TYPE_DWORD, false, gg.SIGN_EQUAL, 0, -1)
+
+gg.refineNumber("-300938736", gg.TYPE_DWORD, false, gg.SIGN_EQUAL, 0, -1)
+
+revert = gg.getResults(45, nil, nil, nil, nil, nil, nil, nil, nil)
+
+gg.editAll("0", gg.TYPE_DWORD)
+
+gg.processResume()
+
+gg.toast("✒️✒️✒️ Mᴀɢɪᴄ Bᴜʟʟᴇᴛ Aktif ✒️✒️✒️")
+
+end
+
+function MG4() 
+
+end
+
+function MG5()
+
+end
+
+function aimlockbot()
+  gg.setRanges(gg.REGION_ANONYMOUS)
+
+gg["clearResults"]()
+
+gg["setRanges"](gg["REGION_C_DATA"] | gg["REGION_CODE_APP"])
+
+gg["searchNumber"]("-1.2382424e28;-1.4239333e28;-1.1144502e28;-1.8331474e27;-7.1608877e24::", gg["TYPE_FLOAT"], false, gg["SIGN_EQUAL"], 0, -1)
+
+gg["refineNumber"]("-1.1144502e28", gg["TYPE_FLOAT"], false, gg["SIGN_EQUAL"], 0, -1)
+
+gg["getResults"](2)
+
+gg["editAll"]("7.5", gg["TYPE_FLOAT"])
+
+gg["clearResults"]()
+
+gg.toast "➕➕➕ Sabıt CʀᴏssHᴀɪʀ Aktif ➕➕➕"
+
+end
+
+function NoRecoil()
+  gg.clearResults()
+
+  gg.setRanges(gg.REGION_C_BSS)
+
+  gg.searchNumber("2048D;4D;1F;1F;1D", gg.TYPE_FLOAT, false, gg.SIGN_EQUAL, 0, -1)
+
+  gg.searchNumber("1", gg.TYPE_FLOAT, false, gg.SIGN_EQUAL, 0, -1)
+
+  NOHOOFF = gg.getResults(1000)
+
+  gg.editAll("0.07", gg.TYPE_FLOAT)
+
+  gg.clearResults()
+
+gg.toast("🌹Nᴏ Gʀᴀss ✅\n👉 AKTİF")
+
+end
+
+function LessRecoil()
+  gg.clearResults()
+
+gg.setRanges(16384)
+
+gg.searchNumber("-1903895931231645695", 32, false, 536870912, 0, -1)
+
+gg.refineAddress("740", -1, gg.TYPE_QWORD, gg.SIGN_EQUAL, 0, -1)
+
+gg.getResults(1)
+
+gg.editAll("-1903895931231645694", 32)
+
+gg.clearResults()
+
+  gg.toast("🔫 LESS RECOİL 🔫")
+end--Fᴜɴᴄᴛɪᴏɴ
+
+function WideView()
+  gg.setRanges(gg.REGION_ANONYMOUS)
+
+  gg.clearResults()
+
+  gg.searchNumber("220;178;15 ", gg.TYPE_FLOAT, false, gg.SIGN_EQUAL, 0, -1)
+
+  gg.searchNumber("220", gg.TYPE_FLOAT, false, gg.SIGN_EQUAL, 0, -1)
+
+  gg.getResults(300)
+
+  gg.editAll("438", gg.TYPE_FLOAT)
+
+  gg.clearResults()
+
+  gg.toast("📺📺📺 İPAD MODU 📺📺📺")
+end--Fᴜɴᴄᴛɪᴏɴ
+
+function SpeedRun()
+  MR = gg.multiChoice({
+
+	"🏃‍♀️ FLASH AÇ✔️",
+
+	"🚶 FLASH KAPAT❌",
+
+	"[GERİ]",
+
+},nil, "⚡ Flash Menu V2 YENİ ⚡")
+
+if MR == nil then
+
+  else
+
+  if MR [1] == true then
+
+     MR1()
+
+  end
+
+  if MR [2] == true then
+
+     MR2()
+
+  end
+
+  if MR [3] == true then
+
+      HOME()
+
+      end
+
+     end
+
+     PUBGMH = -1
+
+     end
+
+     
+
+  function MR1()
+
+  gg.clearResults()
+
+gg.setRanges(gg.REGION_BAD)
+
+gg.searchNumber(5.2806111E-40, gg.TYPE_FLOAT)
+
+gg.getResultsCount()
+
+gg.clearResults()
+
+gg.setRanges(gg.REGION_BAD)
+
+gg.searchNumber(6.50000238419, gg.TYPE_FLOAT)
+
+gg.getResultsCount()
+
+gg.clearResults()
+
+gg.clearResults()
+
+ gg.setRanges(gg.REGION_C_DATA|gg.REGION_CODE_APP)
+
+ gg.searchNumber("-1,296,744,149,883,614,555", gg.TYPE_QWORD, false, gg.SIGN_EQUAL, 0, -1)
+
+ SPEEDV3OFF1=gg.getResults(99)
+
+ gg.editAll("0", gg.TYPE_QWORD)
+
+ gg.clearResults()
+
+ gg.setRanges(gg.REGION_C_DATA|gg.REGION_CODE_APP)
+
+gg.searchNumber("-1,904,987,454,010,553,855", gg.TYPE_QWORD, false, gg.SIGN_EQUAL, 0, -1)
+
+SPEEDV3OFF2=gg.getResults(99)
+
+gg.editAll("-1,904,987,454,002,165,247", gg.TYPE_QWORD)
+
+gg.clearResults()
+
+gg.toast("⚡⚡⚡ Flash Aktif Edildi ⚡⚡⚡")
+
+end
+
+function MR2()
+
+gg.clearResults()
+
+  gg.setRanges(gg.REGION_C_DATA|gg.REGION_CODE_APP)
+
+ gg.searchNumber("-1,296,744,153,870,237,696", gg.TYPE_QWORD, false, gg.SIGN_EQUAL, 0, -1)
+
+ SPEEDV3OFF1=gg.getResults(99)
+
+ gg.editAll("-1,296,744,149,883,614,555", gg.TYPE_QWORD)
+
+ gg.clearResults()
+
+  gg.setRanges(gg.REGION_C_DATA|gg.REGION_CODE_APP)
+
+gg.searchNumber("-1,904,987,454,002,165,247", gg.TYPE_QWORD, false, gg.SIGN_EQUAL, 0, -1)
+
+ SPEEDV3OFF2=gg.getResults(99)
+
+ gg.editAll("-1,904,987,454,010,553,855", gg.TYPE_QWORD)
+
+ gg.clearResults()
+
+ gg.toast("❌❌❌ Flash Kᴀᴘᴀlı ❌❌❌")
+
+end--Fᴜɴᴄᴛɪᴏɴ
+
+function highJump()
+  gg.clearResults()
+
+gg.setRanges(gg.REGION_ANONYMOUS)
+
+gg.searchNumber("7.0064923e-45F;0.6~1;1065353216D;100F;1065353216D;2500000000F;0.10000000149F;88F::", gg.TYPE_FLOAT, false, gg.SIGN_EQUAL, 0, -1)
+
+gg.searchNumber("7.0064923e-45F;0.6~1;1065353216D;100F;1065353216D;2500000000F;0.10000000149F;88F::", gg.TYPE_FLOAT, false, gg.SIGN_EQUAL, 0, -1)
+
+gg.refineNumber("0.6~1", gg.TYPE_FLOAT, false, gg.SIGN_EQUAL, 0, -1)
+
+gg.refineNumber("0.6~1", gg.TYPE_FLOAT, false, gg.SIGN_EQUAL, 0, -1)
+
+gg.getResults(2500)
+
+gg.editAll("3.5241295", gg.TYPE_FLOAT)
+
+gg.editAll("3.5241295", gg.TYPE_FLOAT)
+
+gg.clearResults()
+
+  gg.toast("🤾 YÜKSEK ZIPLA 🤾")
+end--Fᴜɴᴄᴛɪᴏɴ
+
+function EXIT()
+  print("Ｖｅｒｓｉｏｎ : V2.3")
+  print(" ")
+  print(" Channel : @MucotooDeveloper ")
+  print(" ")
+  print("🤵Dҽʋҽʅσρҽɾ Bყ : #MCTOO TEAM")
+  gg.skipRestoreState()
+  gg.setVisible(true)
+  os.exit()
+end--Fᴜɴᴄᴛɪᴏɴ
+
+while "os" do
+  Time = os.date("")
+  if gg.isVisible(true) then
+    gg.setVisible(false)
+    HOME()
+  end--Iғ
+  if MUCOTOO == 1 then
+    HOME()
+  end--Iғ
+end
