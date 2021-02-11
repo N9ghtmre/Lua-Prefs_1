@@ -12,6 +12,15 @@ gg.alert([[
 🌀 ᗰᗩᘜIᑕ ᗰᗴᑎᑌ
 🌀 ᒪᗴՏՏ ᖇᗴᑕOIᒪ]])
 
+local Passwords = {"3231"}
+local Menu = gg.prompt({"Key ?"},nil,{"text"})
+if not Menu then return end
+for l , I in pairs(Passwords) do
+if Menu[1] == I then A = true end
+end
+if A ~= true then gg.alert("YANLIŞ KEY | Key icin Telegram:@MucotooDeveloper") return else gg.toast("Key Onaylandı [✓]") end
+
+
 function MUCO()
   FRL = gg.multiChoice({
           "╭═══════════════╮\n |            ᗩᑎTIᗷᗩᑎˢᵃᶠᵉ🛡️        | \n╰═══════════════╯",
