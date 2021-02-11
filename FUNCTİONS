@@ -112,98 +112,289 @@ function WIDE()
 end--Fᴜɴᴄᴛɪᴏɴ
 
 function BYPASS()
+  gg.alert("𝑺𝒆𝒍𝒂𝒎𝜾𝒏 𝑨𝒍𝒆𝒚𝒌𝒖̈𝒎")
+gg.alert("🤠 ROOTLU SCRİPT 🤠")
+function setvalue(A0_0, A1_1, A2_2)
+  local L3_3
+  L3_3 = {}
+  L3_3[1] = {}
+  L3_3[1].address = A0_0
+  L3_3[1].flags = A1_1
+  L3_3[1].value = A2_2
+  gg.setValues(L3_3)
+end--Fᴜɴᴄᴛɪᴏɴ
+
+gg.alert([[
+WELCOME TO FRL SC+BYPAAS VIP FOR PUBLIC
+@FRLchannel]])
+function FRLC()
+  FRL = gg.multiChoice({
+          "╭═══════════════╮\n |            𝗔𝗻𝘁𝗶𝗯𝗮𝗻ˢᵃᶠᵉ🛡️        | \n╰═══════════════╯",
+          "╭═══════════════╮\n |            𝗔𝗻𝘁𝗲𝗻ˢᵃᶠᵉ🛡️        | \n╰═══════════════╯",
+          "╭═══════════════╮\n |            𝗟𝗲𝘀𝘀𝗥𝗲𝗰𝗼𝗶𝗹ˢᵃᶠᵉ🛡️        | \n╰═══════════════╯",
+      "╭═══════════════╮\n |            𝗖𝗿𝗼𝘀𝘀𝗛𝗮𝗶𝗿ˢᵃᶠᵉ🛡️        | \n╰═══════════════╯",
+      "╭═══════════════╮\n |            𝗞𝗮𝗳𝗮𝗱𝗮𝗻𝗩𝘂𝗿ˢᵃᶠᵉ🛡️        | \n╰═══════════════╯",
+      "╭═══════════════╮\n |            𝗔𝗶𝗺𝗯𝗼𝘁ˢᵃᶠᵉ🛡️        | \n╰═══════════════╯",
+      "╭═══════════════╮\n |            𝗶𝗣𝗔𝗗 𝗠𝗢𝗗ˢᵃᶠᵉ🛡️        | \n╰═══════════════╯",
+      "╭═══════════════╮\n |            𝗡𝗼 𝗚𝗿𝗮𝘀𝘀ˢᵃᶠᵉ🛡️        | \n╰═══════════════╯",
+      "╭═══════════════╮\n |            𝗕𝗹𝗮𝗰𝗸𝗦𝗸𝘆ˢᵃᶠᵉ🛡️        | \n╰═══════════════╯",
+      "╭═══════════════╮\n |            𝗔𝗻𝘁𝗶𝗦𝗵𝗮𝗸𝗲ˢᵃᶠᵉ🛡️        | \n╰═══════════════╯",
+    "◆━━━━━▣ 🇰 🇦 🇵 🇦 🇹  ▣━━━━━━◆"
+  }, nil, " 👑 PUBLIC VIP BY MCTOO 👑\nSAFE BRUTAL ]\nDEV : @Mucotoo")
+  if FRL == nil then
+  else
+    if FRL[1] == true then
+      BYPASS()
+    end--Iғ
+    if FRL[2] == true then
+      PRES()
+    end--Iғ
+    if FRL[3] == true then
+      RECOIL()
+    end--Iғ
+    if FRL[4] == true then
+      CROSSHAIR()
+    end--Iғ
+    if FRL[5] == true then
+      HEADSHOT()
+    end--Iғ
+    if FRL[6] == true then
+      AIM()
+    end--Iғ
+    if FRL[7] == true then
+      WIDE()
+    end--Iғ
+    if FRL[8] == true then
+      I()
+    end--Iғ
+    if FRL[9] == true then
+      J()
+    end--Iғ
+    if FRL[10] == true then
+      ANTIS()
+    end--Iғ
+    if FRL[11] == true then
+      EXIT()
+    end--Iғ
+    feral = -1
+  end--Eʟsᴇ
+end--Fᴜɴᴄᴛɪᴏɴ
+
+function ANTIS()
+  so = gg.getRangesList("libUE4.so")[1].start
+  py = 58838240
+  setvalue(so + py, 4, 0)
+  so = gg.getRangesList("libUE4.so")[1].start
+  py = 58123644
+  setvalue(so + py, 4, 0)
+  gg.toast("👣ANTISHAKE")
+end--Fᴜɴᴄᴛɪᴏɴ
+
+function PRES()
+  gg.setRanges(gg.REGION_ANONYMOUS)
+  gg.searchNumber("88.50576019287F;87.27782440186F;-100.91194152832F;1F::13", gg.TYPE_FLOAT, false, gg.SIGN_EQUAL, 0, -1)
+  gg.searchNumber("88.50576019287F;87.27782440186F;1F", gg.TYPE_FLOAT, false, gg.SIGN_EQUAL, 0, -1)
+  gg.getResults(1000, nil, nil, nil, nil, nil, nil, nil, nil)
+  gg.editAll("1.96875;1.96875;999;1.96875;1.96875;999", gg.TYPE_FLOAT)
+  gg.setVisible(false)
   gg.clearResults()
-  gg.setRanges(gg.REGION_CODE_APP)
-  gg.searchNumber("1711302260", gg.TYPE_DWORD, false, gg.SIGN_EQUAL, 0, -1)
-  gg.getResults(99999999999)
-  gg.editAll("0", gg.TYPE_FLOAT)
-  gg.clearResults()
-  gg.toast("BYPAAS BY @Mucotoo")
-  gg.setRanges(gg.REGION_CODE_APP)
-  gg.searchNumber("1711302006", gg.TYPE_DWORD, false, gg.SIGN_EQUAL, 0, -1)
-  gg.getResults(99999999999)
-  gg.editAll("0", gg.TYPE_FLOAT)
-  gg.clearResults()
-  gg.setRanges(gg.REGION_C_ALLOC)
-  gg.searchNumber("582749752655872;620137442967552", gg.TYPE_QWORD)
-  gg.refineNumber("582749752655872", gg.TYPE_QWORD)
+  gg.alert("ANTEN 📡")
+end--Fᴜɴᴄᴛɪᴏɴ
+
+function I()
+  so = gg.getRangesList("libUE4.so")[1].start
+  py = 39165928
+  setvalue(so + py, 4, 0)
+  gg.toast("NO GRASS🌲")
+end--Fᴜɴᴄᴛɪᴏɴ
+
+function J()
+  so = gg.getRangesList("libUE4.so")[1].start
+  py = 61683360
+  setvalue(so + py, 4, -1222130000)
+  gg.toast("BLACK SKY🦍")
+end--Fᴜɴᴄᴛɪᴏɴ
+
+function WIDE()
+  gg.setRanges(16384)
+  gg.searchNumber("0.00100000005;6.34443552e-37;5.48220066e-37;360.0", gg.TYPE_FLOAT, false, gg.SIGN_EQUAL, 0, -1)
+  gg.refineNumber("360.0", gg.TYPE_FLOAT, false, gg.SIGN_EQUAL, 0, -1)
   gg.getResults(50000)
-  gg.editAll("288233678981562368", gg.TYPE_QWORD)
+  gg.editAll("254", gg.TYPE_FLOAT)
   gg.clearResults()
-  gg.toast("BYPAAS BY @libgcloud")
-  gg.setRanges(gg.REGION_CODE_APP)
-  gg.searchNumber("1718511986", gg.TYPE_DWORD, false, gg.SIGN_EQUAL, 0, -1)
-  gg.getResults(99999999999)
-  gg.editAll("0", gg.TYPE_FLOAT)
+  gg.toast("İPAD MOD")
+end--Fᴜɴᴄᴛɪᴏɴ
+
+function BYPASS()
+  FAKECEZ("Modify address value(Address, value type, value to be modified)")
+  ;({
+    [1] = {}
+  })[1].address = A0_0
+  ;({
+    [1] = {}
+  })[1].flags = A1_1
+  ;({
+    [1] = {}
+  })[1].value = A2_2
+  gg.setValues({
+    [1] = {}
+  })
+end
+
+gg.sleep(500)
+gg.toast("Loading...                             𝙈𝙐𝘾𝙊𝙏𝙊𝙊")
+gg.sleep(500)
+gg.toast("Loading...              𝙈𝙐𝘾𝙊𝙏𝙊𝙊")
+gg.sleep(500)
+gg.toast("Loading...                𝙈𝙐𝘾𝙊𝙏𝙊𝙊")
+gg.sleep(500)
+gg.toast("Loading...                  𝙈𝙐𝘾𝙊𝙏𝙊𝙊")
+gg.sleep(500)
+gg.toast("Loading...                    𝙈𝙐𝘾𝙊𝙏𝙊𝙊")
+gg.sleep(500)
+gg.toast("Loading...                       𝙈𝙐𝘾𝙊𝙏𝙊𝙊")
+gg.sleep(500)
+gg.toast("Loading...                          𝙈𝙐𝘾𝙊𝙏𝙊𝙊")
+gg.sleep(500)
+gg.toast("Loading...                             𝙈𝙐𝘾𝙊𝙏𝙊𝙊")
+gg.sleep(500)
+gg.alert("✳WELCOME TO 𝗖𝗲𝗵𝗲𝗻𝗻𝗲𝗺 ✳")
+gg.alert("◆ 𝐋𝐎𝐀𝐃𝐈̇𝐍𝐆 / 𝐘𝐔𝐊𝐋𝐄𝐍𝐈𝐘𝐎𝐑 ◆")
+gg.toast("TELEGRAM :- @MucotooDeveloper")
+gg.alert("WELCOME TO POWERFUL BYPASS ◾️𝙈𝙪𝙘𝙤𝙩𝙤𝙤◾️")
+gg.clearResults()
+gg.setRanges(gg.REGION_C_ALLOC)
+gg.searchNumber("582749752655872;620137442967552", gg.TYPE_QWORD)
+gg.setVisible(false)
+gg.refineNumber("582749752655872", gg.TYPE_QWORD)
+gg.getResults(50000)
+gg.setVisible(false)
+gg.editAll("288233678981562368", gg.TYPE_QWORD)
+gg.clearResults()
+gg.searchNumber("565157566611456;566257078239232", gg.TYPE_QWORD)
+gg.setVisible(false)
+gg.refineNumber("565157566611456", gg.TYPE_QWORD)
+gg.getResults(50000)
+gg.setVisible(false)
+gg.editAll("288233678981562368", gg.TYPE_QWORD)
+gg.setVisible(false)
+gg.clearResults()
+gg.searchNumber("562954248388607;578351706144768", gg.TYPE_QWORD)
+gg.setVisible(false)
+gg.refineNumber("562954248388607", gg.TYPE_QWORD)
+gg.getResults(50000)
+gg.setVisible(false)
+gg.editAll("288233678981562368", gg.TYPE_QWORD)
+gg.setVisible(false)
+gg.clearResults()
+gg.searchNumber("4398046511104;544434349408256", gg.TYPE_QWORD)
+gg.setVisible(false)
+gg.refineNumber("4398046511104", gg.TYPE_QWORD)
+gg.getResults(50000)
+gg.setVisible(false)
+gg.editAll("288233678981562368", gg.TYPE_QWORD)
+gg.setVisible(false)
+gg.clearResults()
+os.remove("src/main/java/com/google/errorprone/annotations")
+os.remove("src/main/java/com/google/errorprone/annotations")
+os.remove("src/main/java/com/google/errorprone/annotations/concurrent")
+os.remove("third_party.java_src.error_prone.project.annotations.Google_internal")
+gg.clearResults()
+gg.setRanges(gg.REGION_CODE_APP)
+gg.searchNumber("2.2958874e-41", gg.TYPE_FLOAT, false, gg.SIGN_EQUAL, 0, -1)
+gg.getResults(50000)
+gg.editAll("131842", gg.TYPE_FLOAT)
+gg.clearResults()
+gg.setRanges(gg.REGION_CODE_APP)
+gg.searchNumber("9.21956299e-41", gg.TYPE_FLOAT, false, gg.SIGN_EQUAL, 0, -1)
+gg.getResults(50000)
+gg.editAll("131842", gg.TYPE_FLOAT)
+gg.setRanges(gg.REGION_C_ALLOC)
+gg.searchNumber("131842;132098", gg.TYPE_DWORD, false, gg.SIGN_EQUAL, 0, -1, 0)
+gg.refineNumber("131842", gg.TYPE_DWORD, false, gg.SIGN_EQUAL, 0, -1, 0)
+gg.getResults(99999)
+gg.editAll("131842", gg.TYPE_DWORD)
+gg.clearResults()
+gg.setRanges(gg.REGION_C_ALLOC)
+gg.searchNumber("133378;262403", gg.TYPE_DWORD)
+gg.refineNumber("133378", gg.TYPE_DWORD)
+gg.getResults(99999)
+gg.editAll("131842", gg.TYPE_DWORD)
+gg.clearResults()
+gg.setRanges(gg.REGION_C_ALLOC)
+gg.searchNumber("131586;131842", gg.TYPE_DWORD)
+gg.refineNumber("131586", gg.TYPE_DWORD)
+gg.getResults(99999)
+gg.editAll("131842", gg.TYPE_DWORD)
+gg.clearResults()
+gg.alert("♥︎ Ⓑ︎Ⓨ︎Ⓟ︎Ⓐ︎Ⓢ︎Ⓢ︎ Ⓐ︎Ⓚ︎Ⓣ︎Ⓘ︎Ⓕ︎ ♥︎ \nMucotooDeveloper")
+end--Fᴜɴᴄᴛɪᴏɴ
+
+function RECOIL()
+  so = gg.getRangesList("libUE4.so")[1].start
+  py = 20370680
+  setvalue(so + py, 16, 0)
+  so = gg.getRangesList("libUE4.so")[1].start
+  py = 20364764
+  setvalue(so + py, 4, 0)
+end--Fᴜɴᴄᴛɪᴏɴ
+
+function CROSSHAIR()
+  so = gg.getRangesList("libUE4.so")[1].start
+  py = 29430760
+  setvalue(so + py, 16, 1.40129846E-45)
+end
+
+function HEADSHOT()
+  gg.setRanges(32)
+  gg.searchNumber("9.20161819458;25;30.5::", 16, false, 536870912, 0, -1)
+  gg.searchNumber("30.5;25.0:385", 16, false, 536870912, 0, -1)
+  gg.getResults(50)
+  gg.editAll("240", 16)
   gg.clearResults()
-  gg.setRanges(gg.REGION_C_ALLOC)
-  gg.searchNumber("565157566611456;566257078239232", gg.TYPE_QWORD)
-  gg.refineNumber("565157566611456", gg.TYPE_QWORD)
-  gg.getResults(50000)
-  gg.editAll("288233678981562368", gg.TYPE_QWORD)
+  so = gg.getRangesList("libUE4.so")[1].start
+  py = 38433968
+  setvalue(so + py, 16, 0)
+  so = gg.getRangesList("libUE4.so")[1].start
+  py = 58465188
+  setvalue(so + py, 16, 0)
+  so = gg.getRangesList("libUE4.so")[1].start
+  py = 58465188
+  setvalue(so + py, 16, 0)
+  so = gg.getRangesList("libUE4.so")[1].start
+  py = 62277512
+  setvalue(so + py, 16, 50)
+  so = gg.getRangesList("libUE4.so")[1].start
+  py = 21114620
+  setvalue(so + py, 16, 2)
+end--Fᴜɴᴄᴛɪᴏɴ
+
+function AIM()
+  so = gg.getRangesList("libUE4.so")[1].start
+  py = 39368832
+  setvalue(so + py, 16, 9999)
+  so = gg.getRangesList("libUE4.so")[1].start
+  py = 38433980
+  setvalue(so + py, 16, 0)
+end--Fᴜɴᴄᴛɪᴏɴ
+
+function EXIT()
+  print(os.date("\n\nMUCOTOO SCRİPT V1.3⚡😈\n\nTime: %H:%M:%S%p\nToday: %A, %d %B %Y"))
+  gg.skipRestoreState()
+  os.exit()
+end--Fᴜɴᴄᴛɪᴏɴ
+
+while true do
+  if gg.isVisible(true) then
+    feral = 1
+    gg.setVisible(false)
+  end--Iғ
   gg.clearResults()
-  gg.toast("BYPAAS BY @libgcloud")
-  gg.setRanges(gg.REGION_CODE_APP)
-  gg.searchNumber("1986225490", gg.TYPE_DWORD, false, gg.SIGN_EQUAL, 0, -1)
-  gg.getResults(99999999999)
-  gg.editAll("0", gg.TYPE_FLOAT)
-  gg.clearResults()
-  gg.setRanges(gg.REGION_C_ALLOC)
-  gg.searchNumber("562954248388607;578351706144768", gg.TYPE_QWORD)
-  gg.refineNumber("562954248388607", gg.TYPE_QWORD)
-  gg.getResults(50000)
-  gg.editAll("288233678981562368", gg.TYPE_QWORD)
-  gg.clearResults()
-  gg.setRanges(gg.REGION_CODE_APP)
-  gg.searchNumber("911104607", gg.TYPE_DWORD, false, gg.SIGN_EQUAL, 0, -1)
-  gg.getResults(99999999999)
-  gg.editAll("0", gg.TYPE_FLOAT)
-  gg.clearResults()
-  gg.setRanges(gg.REGION_CODE_APP)
-  gg.searchNumber("1734308723", gg.TYPE_DWORD, false, gg.SIGN_EQUAL, 0, -1)
-  gg.getResults(99999999999)
-  gg.editAll("0", gg.TYPE_FLOAT)
-  gg.clearResults()
-  gg.toast("BYPAAS BY @libgcloud")
-  gg.setRanges(gg.REGION_CODE_APP)
-  gg.searchNumber("1735681395", gg.TYPE_DWORD, false, gg.SIGN_EQUAL, 0, -1)
-  gg.getResults(99999999999)
-  gg.editAll("0", gg.TYPE_FLOAT)
-  gg.clearResults()
-  gg.setRanges(gg.REGION_CODE_APP)
-  gg.searchNumber("1718511967", gg.TYPE_DWORD, false, gg.SIGN_EQUAL, 0, -1)
-  gg.getResults(99999999999)
-  gg.editAll("0", gg.TYPE_FLOAT)
-  gg.clearResults()
-  gg.setRanges(gg.REGION_CODE_APP)
-  gg.searchNumber("1734308723", gg.TYPE_DWORD, false, gg.SIGN_EQUAL, 0, -1)
-  gg.getResults(99999999999)
-  gg.editAll("0", gg.TYPE_FLOAT)
-  gg.clearResults()
-  gg.setRanges(gg.REGION_CODE_APP)
-  gg.searchNumber("1986225522", gg.TYPE_DWORD, false, gg.SIGN_EQUAL, 0, -1)
-  gg.getResults(99999999999)
-  gg.editAll("0", gg.TYPE_FLOAT)
-  gg.clearResults()
-  gg.setRanges(gg.REGION_CODE_APP)
-  gg.searchNumber("1734964063", gg.TYPE_DWORD, false, gg.SIGN_EQUAL, 0, -1)
-  gg.getResults(99999999999)
-  gg.editAll("0", gg.TYPE_FLOAT)
-  gg.clearResults()
-  gg.toast("BYPAAS BY @libgcloud")
-  gg.setRanges(gg.REGION_C_ALLOC)
-  gg.searchNumber("4398046511104;544434349408256", gg.TYPE_QWORD)
-  gg.refineNumber("4398046511104", gg.TYPE_QWORD)
-  gg.getResults(50000)
-  gg.editAll("288233678981562368", gg.TYPE_QWORD)
-  gg.clearResults()
-  gg.setRanges(gg.REGION_C_ALLOC)
-  gg.searchNumber("577,252,194,516,992;288,233,678,981,562,368", gg.TYPE_QWORD)
-  gg.refineNumber("577,252,194,516,992", gg.TYPE_QWORD)
-  gg.getResults(50000)
-  gg.editAll("288233678981562368", gg.TYPE_QWORD)
-  gg.clearResults()
-  gg.alert("😈⚡BYPAAS AKTİF /nDURUM» SAFE")
+  if feral == 1 then
+    FRLC()
+  end--Iғ
+end--Wʜɪʟᴇ
+
 end--Fᴜɴᴄᴛɪᴏɴ
 
 function RECOIL()
