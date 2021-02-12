@@ -24,7 +24,7 @@ function MUCO()
       "╭═══════════════╮\n |           ᎻᏆᏃᏞᏆ ᎷᎬᎡᎷᏆˢᵃᶠᵉ💨        | \n╰═══════════════╯",
       "╭═══════════════╮\n |           ᎻᏆᏃᏞᏆ ՏႮ̈ᎡႮ̈ΝᎷᎬˢᵃᶠᵉ🦎        | \n╰═══════════════╯",
       "╭═══════════════╮\n |           IᑭᗩᗪᗰOᗪˢᵃᶠᵉ👁️‍🗨️        | \n╰═══════════════╯",
-      "╭═══════════════╮\n |           ᑎO ᘜᖇᗩՏՏ-ROOT🏝️        | \n╰═══════════════╯",
+      "╭═══════════════╮\n |           ᑎO ᘜᖇᗩՏՏ🏝️        | \n╰═══════════════╯",
       "╭═══════════════╮\n |           ᗷᒪᗩᑕKՏKY-ROOT🌃        | \n╰═══════════════╯",
       "╭═══════════════╮\n |           ՏᏆՏ ᏦᎪᏞᎠᏆᎡˢᵃᶠᵉ🌫        | \n╰═══════════════╯",
     "◆━━━━━▣ 🇰 🇦 🇵 🇦 🇹  ▣━━━━━━◆"
@@ -92,11 +92,21 @@ function PRES()
 end--Fᴜɴᴄᴛɪᴏɴ
 
 function I()
-  so = gg.getRangesList("libUE4.so")[1].start
-    py = 39165928
-    setvalue(so + py, 4, 0)
-    gg.clearResults()
-gg.toast("NO GRASS ROOT") 
+  gg.clearResults()
+ gg.setRanges(gg.REGION_C_ALLOC)
+ gg.searchNumber("135682;144387", gg.TYPE_DWORD)
+ gg.refineNumber("135682", gg.TYPE_DWORD)
+ gg.getResults(50000)
+ gg.editAll("0", gg.TYPE_DWORD)
+ gg.clearResults()
+gg.sleep(140)
+gg.clearResults()
+gg.setRanges(gg.REGION_ANONYMOUS)
+gg.searchNumber(":Default__ExponentialHeightFog", gg.TYPE_BYTE, false, gg.SIGN_EQUAL, 0, -1)
+gg.getResults(500)
+gg.editAll("0", gg.TYPE_BYTE)
+gg.clearResults()
+ gg.toast("Çimenler Kaldırıldı✓")
 end
 
 function J()
