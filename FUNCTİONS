@@ -1,7 +1,34 @@
---Menu Designer Adittya Hasan Adi
---From Azrail-pc
---Host Software Programming notepad
---03-feb-2021 12:26AM
+while(nil)do;local i={}if(i.i)then;i.i=(i.i(i))end;end
+  
+    if os.date("%Y%m%d") >= "20210218" then gg.alert("MCTOO SCRİPT GÜNCELLENİYOR...") return end
+  
+    if gg.isPackageInstalled("com.hsohack.gg") then
+  else
+    gg.alert("MCTOO GG+++")
+    os.exit()
+  end
+  if gg.PACKAGE == "com.hsohack.gg" then
+  else
+    gg.alert("MCTOO GG+++")
+    os.exit()
+  end
+PW = gg.prompt({'🔏 İD: '},{[1]=''},{[1]='text'})
+if not PW then return
+end 
+if PW[1] == "🔑 ŞİFRE" then gg.alert("𝐆𝐎𝐎𝐃𝐁𝐘𝐄") os.exit() end
+if PW[1] =="mctoo" then   
+ gg.toast('💮DOGRU ID 👍👍')
+else 
+ gg.alert("❌ YANLIŞ ID ❌") return end
+ PW = gg.prompt({': '},{[1]=''},{[1]='text'})
+if not PW then return
+end 
+if PW[1] == "" then gg.alert("𝐆𝐎𝐎𝐃𝐁𝐘𝐄") os.exit() end
+if PW[1] =="tech" then  
+ gg.toast('💮ŞİFRE DOĞRU , TEBRİKLER 👍👍')
+else 
+ gg.alert("❌ YANLIS ŞİFRE ❌") return end
+
 gg.sleep(5000)
 gg.toast("[̲̅_̲̅_̲̅_̲̅_̲̅_̲̅] 1O%")
 gg.sleep(200)
@@ -23,7 +50,6 @@ gg.toast("[̲̅_̲̅_̲̅_̲̅_̲̅_̲̅_̲̅_̲̅_̲̅_̲̅_̲̅_̲̅_̲̅_̲̅
 gg.sleep(500)
 gg.toast("[̲̅_̲̅_̲̅_̲̅_̲̅_̲̅_̲̅_̲̅_̲̅_̲̅_̲̅_̲̅_̲̅_̲̅_̲̅_̲̅_̲̅_̲̅_̲̅_̲̅_̲̅_̲̅_̲̅_̲̅_̲̅_̲̅] 100%")
 gg.alert("SAFE OYNA")
-gg.alert("BULLET TRACKER EKLENDİ (WEAPON MENU) ")
 gg.setVisible(true)
 PUBGMH = -1
 function HOME() --Home Menu
@@ -2049,7 +2075,12 @@ gg.toast("Magic Bullet 100%")
 gg.clearResults()
 gg.setVisible(false)
 gg.clearResults()
-gg.toast("Magic Bullet 1.0.6")
+gg.setRanges(gg.REGION_ANONYMOUS)
+gg.searchNumber("69.5;35;33", gg.TYPE_FLOAT, false, gg.SIGN_EQUAL, 0, -1)
+gg.getResults(6)
+gg.editAll("160;140;230", gg.TYPE_FLOAT)
+gg.clearResults()
+gg.toast("♨️Magic Bullet 1.0.7🧧")
 end
 
 function XAC()
@@ -2078,7 +2109,7 @@ gg.searchNumber("0.05000000200~0.05001100900", 16, false, 536870912, 0, -1,0)
 gg.searchNumber("0.05000000200~0.05000000900", 16, false, 536870912, 0, -1,0)
 gg.getResults(50000)
 gg.editAll("5", 16)
-gg.toast("BULLET TRACKİNG AKTİF")
+gg.toast("💎BULLET TRACKİNG AKTİF💎")
 end
 
 function WH3()
@@ -2184,7 +2215,7 @@ gg.toast("High Damage")
   gg.setVisible(false)
   gg.editAll("77", gg.TYPE_FLOAT)
   gg.clearResults()
-  gg.toast("!")
+  gg.toast("🦇🦇🦇")
 end
 
 function WH7()
