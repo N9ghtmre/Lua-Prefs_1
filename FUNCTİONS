@@ -2337,27 +2337,46 @@ end
 
 
 function MN5() --Car Cheats
-CC = gg.multiChoice({
-"[ 🏃 ] FLASH",            
-           "B̳̿͟͞a̳̿͟͞c̳̿͟͞k̳̿͟͞"
-}, nil, "🧛‍♂️ᏆՏ ᏟᎻᎪΝΝᎬᏞ ᎷᏟͲϴϴ ՏᏟᎡİᏢͲ 1.9\n🈵ᏟᎡᎬᎪͲϴᎡ:-✤@mucotoo✤\n㊙️ᏟϴᎠᎬᎠ ᏴᎽ - 𝐌𝐮𝐜𝐨𝐭𝐨𝐨\n🆘Tᴇʟᴇɢʀᴀᴍ:- @ᴍᴜᴄᴏᴛᴏᴏᴅᴇᴠᴇʟᴏᴘᴇʀ\n🛡️𝐂𝐚𝐫 𝐂𝐡𝐞𝐚𝐭𝐬")
-  if CC == nil then
+EX =gg.choice({
+"   ╭═══════════════╮\n           FLASH       ON    ✅  \n  ╰═══════════════╯",
+"   ╭═══════════════╮\n           FLASH     OFF   ❌  \n  ╰═══════════════╯",
+  " ❌ ɢᴇʀɪ ❌     ",
+  }, nil, (os.date('🛡SPEED MUCOTOO DEVELOPER🛡\n⏰%Y/%m/%d  : ⏰%H:%M:%S')))
+  if EX == nil then
   else
-    if CC [1] == true then
-      CC1()
+    if EX == 1 then
+      speedon()
     end
-    if CC [2] == true then
-      HOME()
+    if EX == 2 then
+      speedof()
     end
+    if EX == 3 then
+      home()
+     end
   end
   PUBGMH = -1
 end
 
-
-function CC1()
-gg.alert("FLASH MENU YAKINDA 2.0")
+function speedon()
+  gg.clearResults()
+gg.setVisible(false)
+gg.setRanges(gg.REGION_C_DATA|gg.REGION_CODE_APP)
+gg.searchNumber("-6.03221444e26;-1.3078764e28;-3.74440972e28;-1.86389771e-20;-1.11445016e28;-9.39921508e20;-1.8331477e27:33", gg.TYPE_FLOAT, false, gg.SIGN_EQUAL, 0, -1)
+gg.searchNumber("-1.86389771e-20", gg.TYPE_FLOAT, false, gg.SIGN_EQUAL, 0, -1)
+fspeed1s1 = gg.getResults(100)
+gg.editAll("0", gg.TYPE_FLOAT)
+gg.clearResults()
+gg.toast('Flash Speed Activated!')
+  gg.toast("BYPASS FLASH AÇIK")
 end
 
+function speedof()
+  gg.clearResults()
+gg.setValues(fspeed1s1)
+gg.clearResults()
+gg.toast("Flash Speed Deactivated")
+gg.toast("🛡SPEED MUCOTOO🛡'")
+end
 
 function MN6() --Antiban Protection Menu Global
 gg.setVisible(false)
