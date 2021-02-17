@@ -16,7 +16,7 @@ PW = gg.prompt({'🔏 İD: '},{[1]=''},{[1]='text'})
 if not PW then return
 end 
 if PW[1] == "🔑 ŞİFRE" then gg.alert("𝐆𝐎𝐎𝐃𝐁𝐘𝐄") os.exit() end
-if PW[1] =="mctoo" then   
+if PW[1] =="222" then   
  gg.toast('💮DOGRU ID 👍👍')
 else 
  gg.alert("❌ YANLIŞ ID ❌") return end
@@ -24,7 +24,7 @@ else
 if not PW then return
 end 
 if PW[1] == "🔑 ŞİFRE" then gg.alert("𝐆𝐎𝐎𝐃𝐁𝐘𝐄") os.exit() end
-if PW[1] =="tech" then  
+if PW[1] =="888" then  
  gg.toast('💮ŞİFRE DOĞRU , TEBRİKLER 👍👍')
 else 
  gg.alert("❌ YANLIS ŞİFRE ❌") return end
