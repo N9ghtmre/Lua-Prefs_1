@@ -1,6 +1,6 @@
 while(nil)do;local i={}if(i.i)then;i.i=(i.i(i))end;end
   
-    if os.date("%Y%m%d") >= "20210218" then gg.alert("MCTOO SCRİPT GÜNCELLENİYOR...") return end
+    if os.date("%Y%m%d") >= "20210228" then gg.alert("MCTOO SCRİPT GÜNCELLENİYOR...") return end
   
     if gg.isPackageInstalled("com.hsohack.gg") then
   else
