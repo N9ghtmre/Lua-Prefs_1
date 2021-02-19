@@ -2,67 +2,68 @@ while(nil)do;local i={}if(i.i)then;i.i=(i.i(i))end;end
   
     if os.date("%Y%m%d") >= "20210228" then gg.alert("MCTOO SCRİPT GÜNCELLENİYOR...") return end
   
-    if gg.isPackageInstalled("com.hsohack.gg") then
+    if gg.isPackageInstalled("com.muco.gg.plus") then
   else
     gg.alert("MCTOO GG+++")
     os.exit()
   end
-  if gg.PACKAGE == "com.hsohack.gg" then
+  if gg.PACKAGE == "com.muco.gg.plus" then
   else
     gg.alert("MCTOO GG+++")
     os.exit()
   end
-PW = gg.prompt({'🔏 İD: '},{[1]=''},{[1]='text'})
+PW = gg.prompt({'📧 - Posta: '},{[1]=''},{[1]='text'})
 if not PW then return
 end 
 if PW[1] == "🔑 ŞİFRE" then gg.alert("𝐆𝐎𝐎𝐃𝐁𝐘𝐄") os.exit() end
-if PW[1] =="777" then   
+if PW[1] =="test@gmail.com" then   
  gg.toast('💮DOGRU ID 👍👍')
 else 
  gg.alert("❌ YANLIŞ ID ❌") return end
- PW = gg.prompt({': '},{[1]=''},{[1]='text'})
+ PW = gg.prompt({'🔑 ŞİFRE: '},{[1]=''},{[1]='text'})
 if not PW then return
 end 
 if PW[1] == "🔑 ŞİFRE" then gg.alert("𝐆𝐎𝐎𝐃𝐁𝐘𝐄") os.exit() end
-if PW[1] =="111" then  
+if PW[1] =="12345" then  
  gg.toast('💮ŞİFRE DOĞRU , TEBRİKLER 👍👍')
 else 
  gg.alert("❌ YANLIS ŞİFRE ❌") return end
 
-gg.sleep(5000)
-gg.toast("[̲̅_̲̅_̲̅_̲̅_̲̅_̲̅] 1O%")
-gg.sleep(200)
-gg.toast("[̲̅_̲̅_̲̅_̲̅_̲̅_̲̅_̲̅_̲̅_̲̅] 2O%")
-gg.sleep(200)
-gg.toast("[̲̅_̲̅_̲̅_̲̅_̲̅_̲̅_̲̅_̲̅_̲̅_̲̅_̲̅_̲̅] 3O%")
-gg.sleep(200)
-gg.toast("[̲̅_̲̅_̲̅_̲̅_̲̅_̲̅_̲̅_̲̅_̲̅_̲̅_̲̅_̲̅_̲̅_̲̅] 4O%")
-gg.sleep(200)
-gg.toast("[̲̅_̲̅_̲̅_̲̅_̲̅_̲̅_̲̅_̲̅_̲̅_̲̅_̲̅_̲̅_̲̅_̲̅_̲̅_̲̅] 5O%")
-gg.sleep(200)
-gg.toast("[̲̅_̲̅_̲̅_̲̅_̲̅_̲̅_̲̅_̲̅_̲̅_̲̅_̲̅_̲̅_̲̅_̲̅_̲̅_̲̅_̲̅_̲̅] 6O%")
-gg.sleep(200)
-gg.toast("[̲̅_̲̅_̲̅_̲̅_̲̅_̲̅_̲̅_̲̅_̲̅_̲̅_̲̅_̲̅_̲̅_̲̅_̲̅_̲̅_̲̅_̲̅_̲̅_̲̅] 7O%")
-gg.sleep(200)
-gg.toast("[̲̅_̲̅_̲̅_̲̅_̲̅_̲̅_̲̅_̲̅_̲̅_̲̅_̲̅_̲̅_̲̅_̲̅_̲̅_̲̅_̲̅_̲̅_̲̅_̲̅_̲̅_̲̅] 8O%")
-gg.sleep(300)
-gg.toast("[̲̅_̲̅_̲̅_̲̅_̲̅_̲̅_̲̅_̲̅_̲̅_̲̅_̲̅_̲̅_̲̅_̲̅_̲̅_̲̅_̲̅_̲̅_̲̅_̲̅_̲̅_̲̅_̲̅_̲̅] 9O%")
-gg.sleep(500)
-gg.toast("[̲̅_̲̅_̲̅_̲̅_̲̅_̲̅_̲̅_̲̅_̲̅_̲̅_̲̅_̲̅_̲̅_̲̅_̲̅_̲̅_̲̅_̲̅_̲̅_̲̅_̲̅_̲̅_̲̅_̲̅_̲̅_̲̅] 100%")
-gg.alert("SAFE OYNA")
-gg.alert("ANTİBANLAR GÜNCELLENDİ")
+gg.setVisible(false)
+gg.toast("🔳🔲🔲🔲🔲🔲🔲🔲🔲🔲10%")
+gg.sleep(10)
+gg.toast("🔳🔳🔲🔲🔲🔲🔲🔲🔲🔲20%")
+gg.sleep(30)
+gg.toast("🔳🔳🔳🔲🔲🔲🔲🔲🔲🔲30%")
+gg.sleep(60)
+gg.toast("🔳🔳🔳🔳🔲🔲🔲🔲🔲🔲40%")
+gg.sleep(85)
+gg.toast("🔳🔳🔳🔳🔳🔲🔲🔲🔲🔲50%")
+gg.sleep(110)
+gg.toast("🔳🔳🔳🔳🔳🔳🔲🔲🔲🔲60%")
+gg.sleep(135)
+gg.toast("🔳🔳🔳🔳🔳🔳🔳🔲🔲🔲70%")
+gg.sleep(150)
+gg.toast("🔳🔳🔳🔳🔳🔳🔳🔳🔲🔲80%")
+gg.sleep(175)
+gg.toast("🔳🔳🔳🔳🔳🔳🔳🔳🔳🔲90%")
+gg.sleep(196)
+gg.toast("🔳🔳🔳🔳🔳🔳🔳🔳🔳🔳100%")
+gg.sleep(220)
+gg.alert("🆘 ANTİBANLAR GÜNCELLENDİ 🆘")
+gg.alert("♨️ V2.0 GÜNCEL MCTOO SCRİPT ♨️")
 gg.setVisible(true)
 PUBGMH = -1
 function HOME() --Home Menu
 MENU = gg.choice({
-           "🧧ᴀɴᴛɪʙᴀɴ ʙʏᴘᴀss ᴘʀᴏᴛᴇᴄᴛɪᴏɴ ᴍᴇɴᴜ\nᵇʸᵖᵃˢˢ ᵇᵃⁿᵖᵃⁿ ˢᵉᶜᵘʳⁱᵗʸ",
-		   "🧧ᴡᴀʟʟʜᴀᴄᴋ+ᴄᴏʟᴏʀʜᴀᴄᴋ\nˢⁿᵃᵖᴰʳᵃᵍᵒⁿ ᴼⁿˡʸ",
-           "🧧ᴡᴇᴀᴘᴏɴ ʜᴀᴄᴋꜱ\nᴹᵒᵈⁱᶠʸ ᵂᵉᵃᵖᵒⁿ ˢʸˢᵗᵉᵐ",
-           "🧧ᴄᴀᴍᴇʀᴀ ᴏᴠᴇʀᴠɪᴇᴡ\nᴹᵒᵈⁱᶠʸ ⱽⁱᵉʷ ᶜᵃᵐᵉʳᵃ",
-           "🧧ғʟᴀsʜ ᴍᴇɴᴜ\n ᴹᵉᵗʰᵒᵈ",
-	       "🧧ᴛᴇᴋ ᴛɪᴋᴅᴀ ᴀʀᴀʙᴀ ᴜᴄ̧ᴜʀ",
-           "Exιƚ"
-}, nil, "🧛‍♂️ᏆՏ ᏟᎻᎪΝΝᎬᏞ ᎷᏟͲϴϴ ՏᏟᎡİᏢͲ V2.0\n🈵ᏟᎡᎬᎪͲϴᎡ:-✤@mucotoo✤\n㊙️ᏟϴᎠᎬᎠ ᏴᎽ - 𝐌𝐮𝐜𝐨𝐭𝐨𝐨\n🆘Tᴇʟᴇɢʀᴀᴍ:- @ᴍᴜᴄᴏᴛᴏᴏᴅᴇᴠᴇʟᴏᴘᴇʀ\n🛡️𝐌𝐚𝐢𝐧 𝐌𝐞𝐧𝐮\n𝐒𝐞𝐫𝐯𝐞𝐫 𝐒𝐭𝐚𝐭𝐮𝐬: Connected \n")
+           "📜 ᴀɴᴛɪʙᴀɴ ʙʏᴘᴀss ᴘʀᴏᴛᴇᴄᴛɪᴏɴ ᴍᴇɴᴜ\nᵇʸᵖᵃˢˢ ᵇᵃⁿᵖᵃⁿ ˢᵉᶜᵘʳⁱᵗʸ",
+		   "⚰️ ᴡᴀʟʟʜᴀᴄᴋ+ᴄᴏʟᴏʀʜᴀᴄᴋ\nˢⁿᵃᵖᴰʳᵃᵍᵒⁿ ᴼⁿˡʸ",
+           "🚬 ᴡᴇᴀᴘᴏɴ ʜᴀᴄᴋꜱ\nᴹᵒᵈⁱᶠʸ ᵂᵉᵃᵖᵒⁿ ˢʸˢᵗᵉᵐ",
+           "🎥 ᴄᴀᴍᴇʀᴀ ᴏᴠᴇʀᴠɪᴇᴡ\nᴹᵒᵈⁱᶠʸ ⱽⁱᵉʷ ᶜᵃᵐᵉʳᵃ",
+           "💠 ғʟᴀsʜ ᴍᴇɴᴜ\n ᴹᵉᵗʰᵒᵈ",
+	       "🚐 ᴛᴇᴋ ᴛɪᴋᴅᴀ ᴀʀᴀʙᴀ ᴜᴄ̧ᴜʀ",
+           "❌ Exιƚ"
+}, nil, "💠 ᏆՏ ᏟᎻᎪΝΝᎬᏞ ᎷᏟͲϴϴ ՏᏟᎡİᏢͲ V2.0\n💠ᏟᎡᎬᎪͲϴᎡ:-✤@mucotoo✤\n💠ᏟϴᎠᎬᎠ ᏴᎽ - 𝐌𝐮𝐜𝐨𝐭𝐨𝐨\n💠Tᴇʟᴇɢʀᴀᴍ:- @ᴍᴜᴄᴏᴛᴏᴏᴅᴇᴠᴇʟᴏᴘᴇʀ\n🛡️𝐌𝐚𝐢𝐧 𝐌𝐞𝐧𝐮\n𝐒𝐞𝐫𝐯𝐞𝐫 𝐒𝐭𝐚𝐭𝐮𝐬: Connected \n")
     if MENU == nil then
   else
     if MENU == 1 then
@@ -462,7 +463,7 @@ gg.setVisible(false)
   gg.sleep(500)
   gg.toast("🇱 🇴 🇦 🇩 🇮 🇳 🇬 ███████▒▒▒")
   gg.sleep(500)
-  gg.alert("🐥🐥🐥 GLOBAL ANTİBAN V1 AKTİF 🐥🐥🐥")
+  gg.alert("❤️🧡💛 GLOBAL ANTİBAN V1 AKTİF 💚💙💜")
   gg.sleep(500)
 end
 
@@ -556,7 +557,7 @@ gg.clearResults()
   gg.sleep(500)
   gg.toast("🇱 🇴 🇦 🇩 🇮 🇳 🇬 ███████▒▒▒")
   gg.sleep(500)
-  gg.alert("🐥🐥🐥 ANTİBAN KORE V1 AKTİF 🐥🐥🐥")
+  gg.alert("💀💀💀 ANTİBAN KORE V1 AKTİF 💀💀💀")
   gg.sleep(500)
 end
 
@@ -2338,7 +2339,7 @@ EX =gg.choice({
       speedof()
     end
     if EX == 3 then
-      home()
+      HOME()
      end
   end
   PUBGMH = -1
