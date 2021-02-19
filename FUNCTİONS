@@ -2,16 +2,6 @@ while(nil)do;local i={}if(i.i)then;i.i=(i.i(i))end;end
   
     if os.date("%Y%m%d") >= "20210228" then gg.alert("MCTOO SCRİPT GÜNCELLENİYOR...") return end
   
-    if gg.isPackageInstalled("com.muco.gg.plus") then
-  else
-    gg.alert("MCTOO GG+++")
-    os.exit()
-  end
-  if gg.PACKAGE == "com.muco.gg.plus" then
-  else
-    gg.alert("MCTOO GG+++")
-    os.exit()
-  end
 PW = gg.prompt({'📧 - Posta: '},{[1]=''},{[1]='text'})
 if not PW then return
 end 
