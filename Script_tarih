@@ -1,3 +1,1 @@
---TEBRİKLER BURAYA GELMEN BÜYÜK BAŞARI AMK SALAĞA--
-
 if os.date ("% Y% m% d")> "20200430" then hh = gg.alert ("⏰ Script süresi doldu Telegram Kanımdan Yenisini İndir 👩‍🔧 @NSKACHEATS") os.exit () end
