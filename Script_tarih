@@ -1,0 +1,1 @@
+if os.date ("% Y% m% d")> "20210430" then hh = gg.alert ("⏰ Script süresi doldu Telegram Kanımdan Yenisini İndir 👩‍🔧 @NSKACHEATS") os.exit () end
