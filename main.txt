@@ -1,0 +1,2 @@
+gg.alert("ŞUAN GÜNCEL KULLANIYORSUNUZ")
+gg.alert("GÜNCELLEMELER'DEN HABERDAR OL \nTelegram : @AnonyMod")
